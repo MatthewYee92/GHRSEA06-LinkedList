@@ -2,6 +2,7 @@ const LinkedListNode = value => {
   this.value = value;
   this.next = null;
 };
+
 const reverse = (head) => {
   let node = head,
     previous,
